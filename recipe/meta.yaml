@@ -23,6 +23,7 @@ requirements:
     - python
     - pip
     - cython
+    - numpy >=1.13
     - setuptools
   run:
     - python
