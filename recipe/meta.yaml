@@ -12,8 +12,7 @@ source:
 
 build:
   number: 0
-  # Note: pip-based install fails due to wanting to download astropy-helpers
-  script: python setup.py install --offline --single-version-externally-managed --record=files.txt
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [py<36]
 
 requirements:
@@ -22,18 +21,20 @@ requirements:
   host:
     - python
     - pip
-    - cython
-    - numpy >=1.13
+    - cython >=0.29.14
+    - extension-helpers
     - setuptools
+    - setuptools_scm
   run:
     - python
-    - astropy >=3.2
-    - gwcs >=0.11
+    - astropy >=4.0
+    - gwcs >=0.12
     - matplotlib-base >=2.2
-    - numpy >=1.13
+    - numpy >=1.17
+    - pytest-astropy >=0.4
     - scikit-image >=0.14.2
-    - scikit-learn
-    - scipy
+    - scikit-learn >=0.19
+    - scipy >=0.19
 
 test:
   requires:
@@ -56,7 +57,7 @@ test:
 
 about:
   home: https://photutils.readthedocs.io/
-  license: BSD 3-clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
   summary: An Astropy package for photometry
