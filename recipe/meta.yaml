@@ -23,6 +23,7 @@ requirements:
     - pip
     - cython >=0.29.14
     - extension-helpers
+    - numpy
     - setuptools
     - setuptools_scm
   run:
