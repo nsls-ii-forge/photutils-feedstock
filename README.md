@@ -5,9 +5,13 @@ Home: https://photutils.readthedocs.io/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/photutils-feedstock/blob/master/LICENSE.txt)
 
 Summary: An Astropy package for photometry
+
+Development: https://github.com/astropy/photutils
+
+Documentation: https://photutils.readthedocs.io/
 
 Photutils is an Astropy package for detection and photometry of
 astronomical sources.
