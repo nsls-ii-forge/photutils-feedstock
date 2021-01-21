@@ -5,9 +5,13 @@ Home: https://photutils.readthedocs.io/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/photutils-feedstock/blob/master/LICENSE.txt)
 
 Summary: An Astropy package for photometry
+
+Development: https://github.com/astropy/photutils
+
+Documentation: https://photutils.readthedocs.io/
 
 Photutils is an Astropy package for detection and photometry of
 astronomical sources.
@@ -31,13 +35,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=215&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/photutils-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_python3.7</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=215&branchName=master">
@@ -52,10 +49,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.6</td>
+              <td>linux_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=215&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/photutils-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/photutils-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -73,10 +70,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.6</td>
+              <td>osx_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=215&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/photutils-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/photutils-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -91,6 +88,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=215&branchName=master">
                   <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/photutils-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=215&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/photutils-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr>
