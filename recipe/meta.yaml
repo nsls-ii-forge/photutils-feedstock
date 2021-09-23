@@ -1,6 +1,6 @@
 {% set name = "photutils" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "1a71cac2db730af69ae31f1ff5f4671e7da816da93003ddcab7123c9df2935d3" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "8a060a09bf30f26157531d19f5aeedb1b5ec49ce379eb7df0dade460e76ffd25" %}
 
 package:
   name: {{ name|lower }}
